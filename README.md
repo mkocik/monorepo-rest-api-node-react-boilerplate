@@ -1,12 +1,12 @@
 # Monorepo boilerplate using RESTful api (nodejs, typescript, express, mongoose), REACT and Yarn Workspaces
 
-This is a boilerplate created to build a modular and scalable projects. It contains template for both back-end (node.js) and front-end (react).
+This is a boilerplate created to build modular and scalable projects. It contains a template for both back-end (node.js) and front-end (react).
 
 It utilizes the advantage of [yarn](https://classic.yarnpkg.com/en/docs/install/) workspaces to manage dependencies.
 
 Due to this fact, it is super-easy to manage packages, add new ones, edit existing ones - and keep the good code structure overall.
 
-It also wraps the database in a separate layer, so if you decide to e.g. change the db  to the different one - nothing simpler. Just change the `db` package to your own one, and change the implementation of `api-models` package.
+It also wraps the database in a separate layer, so if you decide to e.g. change the DB to the different one - nothing simpler. Just change the `monorepo-boilerplate/db` package to your own one, and change the implementation of the `api-models` package.
 
 For more details, please refer to [backend-readme](/backend) and [frontend-readme](/frontend)
 
