@@ -22,6 +22,7 @@ const controller = new UserController();
  *         description: array of users
  */
 user.get('/', route(controller.findAll));
+
 /**
  * @swagger
  * path:
@@ -53,6 +54,7 @@ user.post('/',
   ],
   route(controller.create)
 );
+
 /**
  * @swagger
  * path:
@@ -81,6 +83,7 @@ user.get('/:id',
     check('id').custom(exists.bind(this, '_id', User))
   ],
   route(controller.findOne));
+
 /**
  * @swagger
  * path:
@@ -117,6 +120,7 @@ user.put('/:id',
     check('password', 'Please enter a password with 6 or more characters').isLength({min: 6})
   ],
   route(controller.update));
+
 /**
  * @swagger
  * path:
