@@ -26,7 +26,7 @@ Run mongo image
 docker run -p 27017:27017 mongo --port 27017
 ```
 
-### Usage
+## Usage
 - `build` - Transpile TypeScript to ES6
 - `lint` - Lint your TS code
 - `dev` - To run the app without transpile to ES6, with nodemon watch
@@ -35,7 +35,7 @@ docker run -p 27017:27017 mongo --port 27017
 - `prod` - Build & run the transpiled app
 - `test` - Run API tests
 
-### OpenApi
+## OpenApi
 
 To enter OpenApi documentation, use [http://localhost:3000/v1/docs](http://localhost:3000/v1/docs)
 
@@ -43,7 +43,7 @@ All the routes should be documented as in `src/api/user/user.route.ts` example.
 
 All DB models should be documented as well in a `@monorepo-boilerplate/db` package
 
-### Available routes in a template
+## Available routes in a template
 | Method   | Path        | Desc  |
 | :------- | :-------------- | :----------- |
 | `POST`   | `/v1/users`        | Create a new user in the DB.                    |

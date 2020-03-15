@@ -2,6 +2,8 @@
 
 This is a boilerplate created to build modular and scalable projects. It contains a template for both back-end (node.js) and front-end (react).
 
+It uses OpenAPI to document all API endpoints - (see [backend-readme](/backend))
+
 It utilizes the advantage of [yarn](https://classic.yarnpkg.com/en/docs/install/) workspaces to manage dependencies.
 
 Due to this fact, it is super-easy to manage packages, add new ones, edit existing ones - and keep the good code structure overall.
