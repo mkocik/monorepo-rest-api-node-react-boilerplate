@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo-boilerplate/api-validators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@monorepo-boilerplate/mongo-validators": "1.0.0",
+    "@monorepo-boilerplate/api-response": "1.0.0",
+    "http-status": "^1.2.0",
+    "express": "^4.16.3",
+    "express-validator": "^6.4.0"
+  }
+}

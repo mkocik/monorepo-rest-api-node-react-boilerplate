@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkocik/monorepo-rest-api-node-react-boilerplate.git",
+  "author": "Maciej Kocik <maciej.kocik@netent.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "dev": "yarn --cwd backend dev",
+    "build": "concurrently \"yarn --cwd frontend build\" \"yarn --cwd backend build\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

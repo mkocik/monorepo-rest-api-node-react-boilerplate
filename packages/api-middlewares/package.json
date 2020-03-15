@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo-boilerplate/api-middlewares",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@monorepo-boilerplate/api-response": "1.0.0",
+    "http-status": "^1.2.0"
+  }
+}

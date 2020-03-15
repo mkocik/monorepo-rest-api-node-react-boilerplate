@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo-boilerplate/api-models",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {
+    "@monorepo-boilerplate/db": "1.0.0",
+    "mongoose": "^5.2.15"
+  }
+}
