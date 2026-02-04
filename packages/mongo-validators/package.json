@@ -4,6 +4,6 @@
   "main": "index.ts",
   "private": true,
   "dependencies": {
-    "mongoose": "^5.2.15"
+    "mongoose": "^6.13.6"
   }
 }
